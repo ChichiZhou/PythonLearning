@@ -1,0 +1,1257 @@
+---
+Resources:
+
+  ACY1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'ACY1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'ACY1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  BDL2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'BDL2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'BDL2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  BDL3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'BDL3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'BDL3_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  BFI4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'BFI4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'BFI4_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  BWI2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'BWI2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'BWI2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  CLE2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'CLE2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'CLE2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  CLE3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'CLE3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'CLE3_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  CMH1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'CMH1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'CMH1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  DCA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'DCA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'DCA1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  DEN3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'DEN3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'DEN3_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  DFW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'DFW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'DFW7_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  DTW1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'DTW1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'DTW1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  EWR4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'EWR4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'EWR4_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  EWR9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'EWR9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'EWR9_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  FAT1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'FAT1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'FAT1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  FTW6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'FTW6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'FTW6_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  HOU2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'HOU2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'HOU2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  JAX2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'JAX2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'JAX2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  JFK8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'JFK8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'JFK8_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  LAS7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'LAS7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'LAS7_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  LGB3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'LGB3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'LGB3_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  LGB7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'LGB7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'LGB7_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  LGA9EdgtrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'LGA9EdgtrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'LGA9_Edg'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MCO1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MCO1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MCO1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MDW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MDW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MDW7_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MIA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MIA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MIA1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MKC6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MKC6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MKC6_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MKE1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MKE1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MKE1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  MSP1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'MSP1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'MSP1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  OAK4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'OAK4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'OAK4_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  OKC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'OKC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'OKC1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  PDX9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'PDX9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'PDX9_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  SAT2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'SAT2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'SAT2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  SLC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'SLC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'SLC1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  SMF1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'SMF1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'SMF1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  STL8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'STL8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'STL8_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  TPA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'TPA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'TPA1_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  TUS2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'TUS2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'TUS2_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  YYZ4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'YYZ4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'YYZ4_Edge'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/EDGE/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsABE2ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsABE2ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/ABE2/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsABE8ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsABE8ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/ABE8/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsAVP1ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsAVP1ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/AVP1/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsCHA1ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsCHA1ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/CHA1/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsCLT2ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsCLT2ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/CLT2/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsCVG1ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsCVG1ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/CVG1/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsCVG3ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsCVG3ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/CVG3/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsFTW1ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsFTW1ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/FTW1/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsLAX9ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsLAX9ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/LAX9/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsLGB8ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsLGB8ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/LGB8/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+  USIAD1trueStatusAgentsMDW2ActiveTagsCountAlarm:
+    Type: 'AWS::CloudWatch::Alarm'
+    Properties:
+      AlarmName: 'USIAD1trueStatusAgentsMDW2ActiveTagsCountAlarm'
+      ComparisonOperator: 'LessThanThreshold'
+      EvaluationPeriods: 30
+      DatapointsToAlarm: 30
+      Dimensions:
+        - Name: 'System Name'
+          Value: 'US-IAD-1'
+        - Name: 'Source'
+          Value: 'AIMPublisher'
+        - Name: 'Active Node'
+          Value:  'true'
+      MetricName: 'Status/Agents/MDW2/ActiveTagsCount'
+      Namespace: 'AFTMI/Ignition Monitoring'
+      Period: 60
+      Statistic: 'Average'
+      Threshold: 0
+      TreatMissingData: 'ignore'
+
+Outputs:
+  StackArn:
+    Description: Don't remove this output! Pipelines need this to do its association. (And LPT. Removing will break things)
+    Value: { Ref: 'AWS::StackId' }
+
+  ACY1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'ACY1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  BDL2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'BDL2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  BDL3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'BDL3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  BFI4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'BFI4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  BWI2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'BWI2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  CLE2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'CLE2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  CLE3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'CLE3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  CMH1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'CMH1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  DCA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'DCA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  DEN3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'DEN3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  DFW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'DFW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  DTW1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'DTW1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  EWR4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'EWR4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  EWR9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'EWR9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  FAT1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'FAT1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  FTW6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'FTW6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  HOU2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'HOU2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  JAX2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'JAX2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  JFK8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'JFK8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  LAS7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'LAS7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  LGB3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'LGB3EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  LGB7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'LGB7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  LGA9EdgtrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'LGA9EdgtrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MCO1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MCO1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MDW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MDW7EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MIA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MIA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MKC6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MKC6EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MKE1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MKE1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  MSP1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'MSP1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  OAK4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'OAK4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  OKC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'OKC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  PDX9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'PDX9EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  SAT2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'SAT2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  SLC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'SLC1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  SMF1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'SMF1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  STL8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'STL8EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  TPA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'TPA1EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  TUS2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'TUS2EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  YYZ4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm:
+    Value:
+      Ref: 'YYZ4EdgetrueStatusAgentsEDGEActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsABE2ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsABE2ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsABE8ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsABE8ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsAVP1ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsAVP1ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsCHA1ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsCHA1ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsCLT2ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsCLT2ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsCVG1ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsCVG1ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsCVG3ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsCVG3ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsFTW1ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsFTW1ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsLAX9ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsLAX9ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsLGB8ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsLGB8ActiveTagsCountAlarm'
+
+  USIAD1trueStatusAgentsMDW2ActiveTagsCountAlarm:
+    Value:
+      Ref: 'USIAD1trueStatusAgentsMDW2ActiveTagsCountAlarm'
