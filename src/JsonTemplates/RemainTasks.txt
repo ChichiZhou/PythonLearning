@@ -1,0 +1,11 @@
+1.如何把代码优美的组合起来
+2.如何把不需要的代码分开到别的地方
+3.如何写 testcase
+
+整个工作到流程：
+对于每一个 typeofmetrics (i.e TagValueChangesPerMinute)
+1. 使用原本到数据，构建所有的 metrics: [site1, site2, .....]
+2. 使用 splitstring 将每一个 metrics: [site1, site2, .....]
+创建成多个参数字典，比如{System: AIMPublisher, Source: ..., Metrics:...}
+3. 根据这些 参数字典 按照固定的个数分割组成不同的 nestedstackfile
+4. 将这些不同的 nestedstackfile 使用 jinja 组成一个 nestedstack

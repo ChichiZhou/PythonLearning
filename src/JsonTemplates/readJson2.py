@@ -27,6 +27,10 @@ template['Resources']["BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm
     }
 }
 
+template["Outputs"]["BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm"] = {
+    "Value": {"Ref": "BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm"}
+}
+
 print(template)
 
 with open("./test3.json", "w") as f:

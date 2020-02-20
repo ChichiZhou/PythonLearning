@@ -1,0 +1,4 @@
+{"AWSTemplateFormatVersion": "2010-09-09", "Resources": {}, "Outputs": {"StackArn": {
+  "Description": "The DNSName of the backup load balancer",
+  "Value": {"Ref": "AWS::StackId"}
+}}}
