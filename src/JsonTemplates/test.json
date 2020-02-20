@@ -19,6 +19,25 @@
         "Threshold": "60",
         "DatapointsToAlarm": "59"
       }
+    },
+    "BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm": {
+      "Type": "AWS::CloudWatch::Alarm",
+      "Properties": {
+        "AlarmName": "BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm",
+        "ComparisonOperator": "LessThanThreshold",
+        "Dimensions": [
+          {"Name": "System Name", "Value": "BDL2_Edge"},
+          {"Name": "Source", "Value": "AIMPublisher"},
+          {"Name": "Active Nodee", "Value": "true"}
+        ],
+        "MetricName": "Status/Agents/EDGE/TagValueChangesPerMinute",
+        "Namespace": "AFTMI/Ignition Monitoring",
+        "Statistic": "Average",
+        "Period": "60",
+        "EvaluationPeriods": "60",
+        "Threshold": "60",
+        "DatapointsToAlarm": "59"
+      }
     }
   },
   "Outputs": {
@@ -28,6 +47,9 @@
     },
     "ACY1EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm": {
       "Value": {"Ref": "ACY1EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm"}
+    },
+    "BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm": {
+      "Value": {"Ref": "BDL2EdgetrueStatusAgentsEDGETagValueChangesPerMinuteAlarm"}
     }
   }
 }
