@@ -1,0 +1,48 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Resources": {
+    "ACY1EdgeActiveLogAgentBufferOverflows": {
+      "Type": "AWS::CloudWatch::Alarm",
+      "Properties": {
+        "AlarmName": "ACY1EdgeActiveLogAgentBufferOverflows",
+        "ComparisonOperator": "GreaterThanThreshold",
+        "Metrics": [
+          {
+            "Id": "m1",
+            "MetricStat": {
+             "Metric": {
+               "Dimensions":[
+                 {"Name": "System Name", "Value": "ACY1_Edge"},
+                 {"Name": "Source", "Value": "MonitoringPublisher"},
+                 {"Name": "Active Nodee", "Value": "true"}
+               ],
+               "MetricName": "Status/LogAgent/BufferOverflows",
+               "Namespace": "AFTMI/Ignition Monitoring"
+             },
+              "Period": "60",
+              "Stat": "Maximum"
+            },
+            "ReturnData": "False"
+          },
+          {
+            "Id": "expr1",
+            "Expression": "RATE(m1)",
+            "Label": "activeNodeBufferOverflowsPerMinute"
+          }
+        ],
+        "EvaluationPeriods": "1",
+        "Threshold": "0",
+        "TreatMissingData": "ignore"
+      }
+    }
+  },
+  "Outputs": {
+    "StackArn": {
+      "Description": "The DNSName of the backup load balancer",
+      "Value": {"Ref": "AWS::StackId"}
+    },
+    "ACY1EdgeActiveLogAgentBufferOverflows": {
+      "Value": {"Ref": "ACY1EdgeActiveLogAgentBufferOverflows"}
+    }
+  }
+}
