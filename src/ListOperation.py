@@ -3,3 +3,8 @@ b = [4,5]
 
 # 按照顺序合并两个list
 print(a + b)
+
+a = None
+
+if a is None:
+    print("None!")
