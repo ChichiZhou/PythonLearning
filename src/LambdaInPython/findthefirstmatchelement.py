@@ -1,8 +1,16 @@
 
-seq = [1,2,3,4,5]
+seq = ['1234455555']
 
 # next(x for x in seq if x == 1)
 # find the first match element
-result = next((x for x in seq if x == 1), None)
+result = next((n for n in range(len(seq)) if seq[n] == '1234455555'), None)
 
 print(result)
+
+
+a_dict = {"1": ["a"]}
+
+print(a_dict["1"])
+
+for i in range(len(seq)):
+    print(seq[i])
