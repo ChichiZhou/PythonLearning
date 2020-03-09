@@ -1,7 +1,6 @@
 import abc
 import os
 import json
-import copy
 
 
 class AlarmClass(metaclass=abc.ABCMeta):

@@ -7,8 +7,6 @@ class Factory(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def createpizza(self): pass
 
-
-
 class TexasRoad(Factory):
     def createpizza(self):
         print("I Love Texas")

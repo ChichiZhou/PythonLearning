@@ -1,5 +1,5 @@
 import pytest
-from creatclassfortest import AbstractClass
+from test.creatclassfortest import AbstractClass
 
 class TestAbstractClass:
 

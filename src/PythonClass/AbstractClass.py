@@ -1,4 +1,8 @@
 import abc
+"""
+如果要写一个抽象类，就只能这么写
+"""
+
 
 class FactoryOne(metaclass=abc.ABCMeta):
     @abc.abstractmethod

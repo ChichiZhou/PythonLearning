@@ -1,5 +1,8 @@
 class test():
-    def samename(self, a,b):
+    """
+    方法的重载
+    """
+    def samename(self, a, b):
         print(a + b)
 
     def samename(self, a):

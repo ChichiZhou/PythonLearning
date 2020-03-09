@@ -1,7 +1,7 @@
 import abc
 import os
 import json
-import copy
+from backupforsth import copy
 
 
 class AlarmClass(metaclass=abc.ABCMeta):

@@ -6,7 +6,6 @@ class Field:
         self.alarmName = alarmName
         self.alarmParameter = alarmParameter
 
-
     def modify(self, field, value):
         self.field = value
 
