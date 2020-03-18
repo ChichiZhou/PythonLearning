@@ -13,4 +13,5 @@ print(os.path.abspath('.'))  # 当前绝对路径
 # print("sys.path is {}".format(sys.path))
 print(dependency.cc)
 print(Another.dd)
+print(Another.dd2)
 

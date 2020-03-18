@@ -17,3 +17,29 @@ if re.match(aim, matchone):
 else:
     print("false")
 
+
+us_info = re.compile("^(US)-([A-Z]*)-([0-9]*)$")
+print(us_info)
+test = "US-IAD-1"
+usual = "ACY1"
+
+if re.match(us_info, usual):
+    print("This is true")
+else:
+    print("This is false")
+
+re_list = ["(.*)(AIMPublisher/TotalTagsFailed)$"]
+test_list = ["Status/TagAgent/AIMPublisher/TotalTagsFailed", "Status/TagAgent/LETO/TotalTagsFailed", "Gateway/Performance/CPU Usage",
+             "Gateway/Performance/Memory Utilization"]
+result = []
+for re_sitename in re_list:
+    te = re.compile(re_sitename)
+    print(te)
+    for test_case in test_list:
+        if re.match(te, test_case):
+            result.append(test_case)
+
+print(result)
+
+
+
