@@ -1,0 +1,6 @@
+{
+  "datalist":
+  [{"name": "ACY1EdgeAlarms0", "template":  "ACY1EdgeAlarms0.json"},
+    {"name": "BDL2EdgeAlarms0", "template":  "BDL2EdgeAlarms0.json"}
+  ]
+}
